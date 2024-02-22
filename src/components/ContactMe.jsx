@@ -38,13 +38,12 @@ const Contact = () => {
   // }
 
   return (
-    <div id="contact" className="contact pt-[100px]">
+    <div id="contact" className="contact md:pt-[70px] lg:pt-[120px] pt-[40px]">
       <div className="text-white max-w-[90%] md:max-w-[80%]">
         <h1 className="text-[40px]">Contact Me</h1>
         <p className="text-justify py-2 text-[18px] md:w-[61%]">
           I am interested in working with any company who thinks my skill will
-          be helpful for them. If you are looking for someone like me,
-          please let me know. Or you can just to me.
+          be helpful for them. If you believe I could be a valuable asset to your team, please feel free to drop me a line. I look forward to connecting with you.
         </p>
 
         <div className="Forms text-black">

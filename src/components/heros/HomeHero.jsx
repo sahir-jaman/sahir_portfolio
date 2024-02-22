@@ -4,9 +4,8 @@ import Typed from "typed.js";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-
 
 function HomeHero() {
   const inputRef = useRef(null);
@@ -32,10 +31,10 @@ function HomeHero() {
   return (
     <div className="text-white mt-[150px]">
       <div className="hero-text">
-        <h3 className="md:text-[55px] text-[35px] font-semibold tracking-wide">
+        <h3 className="md:text-[65px] text-[40px] font-semibold tracking-wide">
           Md. Sahiruzzaman
         </h3>
-        <h1 className="md:text-[30px] text-[20px] font-semibold">
+        <h1 className="md:text-[32px] text-[22px] font-semibold">
           {" "}
           I&apos;m <span className="text-[#2ecc71]" ref={inputRef}></span>
         </h1>
@@ -63,9 +62,9 @@ function HomeHero() {
               <FaFacebook className="h-5 w-5" />
             </div>
           </a>
-          <a href="https://www.instagram.com/sahir_jaman/">
+          <a href="https://www.youtube.com/watch?v=Z4GmxxuzRt4">
             <div className="bg-[rgba(255,255,255,0.1)] h-12 w-12 flex justify-center items-center rounded-full hover:bg-[#2ecc71] transition duration-500 ease-in-out">
-              <FaInstagram className="h-5 w-5" />
+              <FaYoutube className="h-5 w-5" />
             </div>
           </a>
         </div>

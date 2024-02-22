@@ -11,40 +11,46 @@ import icpc_pic from "../assets/images/icpc_pic.jpg";
 import icpc_participation from "../assets/images/icpc-participation.png";
 import cyber1 from "../assets/images/cyber1.png";
 import cyber2 from "../assets/images/cyber2.png";
+import english from "../assets/images/english2.png";
 
 const heroData = [
   {
-    title: "Participated International Collegiate programming contest.",
+    title: "ICPC Final Round",
     description:
-      "Participated International Collegiate programming contest.Participated International Collegiate programming contest.",
+      "Participated in the prestigious International Collegiate Programming Contest, BUBT 2022, where our team was selected among the top performers. Demonstrated exceptional problem-solving skills and teamwork.",
     image: icpc_pic,
   },
   {
     title:
-    "Politics for some, Economy for all: BPA President at Annual General Meeting",
+    "Champion at the intra-university programming contest",
     description:
-    "voluptatum quos incidunt sit necessitatibus praesentium aut architecto eligendi inventore id",
+    "Before the ICPC contest, we had to win the intra-university programming contest. I was the champion, having solved 9 out of 11 questions.",
     image: icpc,
   },
   {
-    title: "Government controlling media by different ways",
+    title: "Participated NPCP 2020, ICPC 2022",
     description:
-    "various obstacles. Freedom of media could not be ensured if rule of law is not established through a fair election in the country.",
+    "I have been involved in programming contests since my first year of university life. Among the numerous contests I've participated in, these are the most prestigious ones.",
     image: icpc_participation,
   },
   {
-    title: "BPA President paid courtesy call on Finance Minister",
-    description: "BPA President Mr. Mahbubul Alam Presided over the meeting",
+    title: "Cyber Securiy Specialist",
+    description: "Successfully completed a rigorous 6-month cybersecurity course where I have learned so many things that will help me build more accurate and secure softwares.",
     image: cyber1,
   },
   {
-    title: "BPA President paid courtesy call on Finance Minister",
-    description: "BPA President Mr. Mahbubul Alam Presided over the meeting",
+    title: "Cyber Security Examination Success",
+    description: "Achieved success in passing the challenging CertiProf examination, demonstrating a comprehensive understanding of cybersecurity principles and practices.",
     image: cyber2,
   },
   {
-    title: "BPA President paid courtesy call on Finance Minister",
-    description: "BPA President Mr. Mahbubul Alam Presided over the meeting",
+    title: "English Proficiency Certificate",
+    description: "Attended a British Council exam and achieved excellent result. The preparation equipped me with advanced language skills and enhanced my ability to communicate effectively in English.",
+    image: english,
+  },
+  {
+    title: "Completion of Machine Learning Mathematics and Statistics Course",
+    description: "Acquired a deep understanding of foundational concepts and techniques essential for analyzing data, building predictive models, and deriving valuable insights",
     image: sahirMl,
   },
 ];
@@ -59,10 +65,7 @@ export default function Achievements() {
           modules={[Navigation, Scrollbar, A11y, Autoplay]}
           spaceBetween={20}
           slidesPerView={1}
-          autoplay={{
-            delay: 5500,
-            disableOnInteraction: false,
-          }}
+          
         >
           {heroData.map((item, index) => (
             <SwiperSlide
@@ -78,9 +81,9 @@ export default function Achievements() {
                   alt=""
                 />
               </div>
-              <div className="flex items-center w-full md:w-[45%] mr-5 p-4 pr-6">
+              <div className="flex items-center w-full md:w-[45%] mr-5 p-4 pr-6 cursor-pointer">
                 <div className="">
-                  <h2 className="text-2xl lg:text-4xl font-bold my-6 leading-normal">
+                  <h2 className="text-2xl lg:text-4xl font-bold my-6 leading-normal hover:text-[#2ecc71]">
                     {item.title}
                   </h2>
                   <p className="text-[23px] text-justify">{item.description}</p>
