@@ -36,7 +36,7 @@ const cardData = [
   {
     image: bpa,
     project_name: "DBA",
-    description:"It's a Bar association project. Bar related tasks are performed.",
+    description:"It's a Bar association project. Bar related tasks are performed by the owner.",
     technology: "React Js, Tailwind Css, python, Django Rest Framework",
     live:"https://github.com/sahir-jaman/DhakaBarAssociation",
     server:"https://github.com/sahir-jaman/DhakaBarAssociation",
@@ -45,7 +45,7 @@ const cardData = [
     image: dbm,
     project_name: "Democratic budget",
     description:
-      "Semi government project where owner control posters and blogs.",
+      "Semi government project where owner control posters and blogs for the visitors.",
     technology: "python, Django, tailwind css, Django Rest Framework",
     live: "https://democraticbudget.org/",
     server: "https://github.com/sahir-jaman/Democratic-Budget-Movement",
@@ -62,7 +62,7 @@ const cardData = [
   {
     image: netflix,
     project_name: "Netflix Clone",
-    description: "A clone of the Netflix platform.",
+    description: "A clone of the Netflix platform, built to replicate its user interface.",
     technology: "React Js, Tailwind Css, Python, Django Rest Framework",
     live: "https://sahir-jaman.github.io/netflilx-clone.github.io/src/index.html",
     server: "https://github.com/sahir-jaman/netflilx-clone.github.io",
@@ -106,24 +106,24 @@ const cardData = [
 function Projects() {
   return (
     <div>
-      <h1 className="text-[30px] pb-5 text-white font-semibold">
+      <h1 className="text-[23px] pb-5 text-white font-semibold">
         Key Projects:
       </h1>
       <div className="projects max-w-[100%] hover:text-black">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-y-10 grid-flow-row">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-y-10 gap-x-1 grid-flow-row">
           {cardData.map((item, index) => (
             <div
               key={index}
-              className="bg-[#2c2c2c] text-white md:hover:scale-105 hover:transition-all hover:ease-in-out hover:duration-500 h-[450px] md:w-[300px] w-[100%] border border-solid border-[#2ecc71]"
+              className="bg-[#2c2c2c] text-white md:hover:scale-105 hover:transition-all hover:ease-in-out hover:duration-500 h-[450px] md:w-[250px] w-[100%] border border-solid border-[#2ecc71]"
             >
               <img
                 className="h-[220px] w-12/12 md:object-fit mx-auto"
                 src={item.image}
                 alt=""
               />
-              <div className="text-center p-2 max-h-[100px]">
-                <h1 className="text-[20px] font-bold ">{item.project_name}</h1>
-                <p>{item.description}</p>
+              <div className="text-center p-2 min-h-[120px]">
+                <h1 className="text-[18px] font-bold ">{item.project_name}</h1>
+                <p className="text-[16px]">{item.description}</p>
               </div>
               <div className="flex gap-10 justify-center">
                 <a
@@ -145,7 +145,7 @@ function Projects() {
                   <h1>Server</h1>
                 </a>
               </div>
-              <div className="p-1 pt-3 pl-7">
+              <div className="p-1 pt-3 text-[14px] ml-3 mr-1">
                 <h1 className="float-left ">Technology:</h1>
                 <p>{item.technology}</p>
               </div>

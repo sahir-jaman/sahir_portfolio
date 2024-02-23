@@ -14,7 +14,7 @@ function App() {
     backgroundSize: 'cover',
     backgroundRepeat: 'repeat',
     backgroundPosition: 'center',
-    minHeight: '100vh', // Set a minimum height to fill the viewport
+    minHeight: '100vh',
   };
 
   return (
@@ -23,7 +23,7 @@ function App() {
         <div className="">
           <Header />
         </div>
-        <div className="md:ml-[190px] ml-[20px]">
+        <div className="md:ml-[172px] ml-[20px]">
           <Routes>
             <Route path="/" element={<HomeHero/>} />
             <Route path="/achievements" element={<Achievements/>} />

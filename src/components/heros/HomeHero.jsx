@@ -29,16 +29,16 @@ function HomeHero() {
   }, []); // Empty dependency array to run effect only once on component mount
 
   return (
-    <div className="text-white mt-[150px]">
+    <div className="text-white mt-[120px]">
       <div className="hero-text">
-        <h3 className="md:text-[65px] text-[40px] font-semibold tracking-wide">
+        <h3 className="md:text-[50px] text-[40px] font-semibold tracking-wide">
           Md. Sahiruzzaman
         </h3>
-        <h1 className="md:text-[32px] text-[22px] font-semibold">
+        <h1 className="md:text-[22px] text-[22px] font-semibold">
           {" "}
           I&apos;m <span className="text-[#2ecc71]" ref={inputRef}></span>
         </h1>
-        <p className="md:text-[20px] text-[14px] tracking-wide py-1">
+        <p className="md:text-[14px] text-[14px] tracking-wide py-1">
           Focused on providing programming excellence
         </p>
         <div className="social flex gap-2 py-4">
@@ -62,7 +62,7 @@ function HomeHero() {
               <FaFacebook className="h-5 w-5" />
             </div>
           </a>
-          <a href="https://www.youtube.com/watch?v=Z4GmxxuzRt4">
+          <a href="https://www.youtube.com/@sahir-jaman">
             <div className="bg-[rgba(255,255,255,0.1)] h-12 w-12 flex justify-center items-center rounded-full hover:bg-[#2ecc71] transition duration-500 ease-in-out">
               <FaYoutube className="h-5 w-5" />
             </div>
@@ -81,10 +81,14 @@ function HomeHero() {
         </button>
       </div>
 
-      <div className="bottom md:mt-[250px] mt-[190px]">
+      <div className="bottom md:mt-[150px] mt-[190px]">
         <p className="tracking-wider text-[18px]">
           @Last Updated on{" "}
           <span className="text-[#2ecc71]">5 january, 2024</span>
+        </p>
+        <p className="text-[13px]">
+          For the best experience, please use the{" "}
+          <span className="text-[#2ecc71]">desktop version</span>
         </p>
       </div>
     </div>

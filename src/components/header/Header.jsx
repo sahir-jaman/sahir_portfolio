@@ -40,21 +40,21 @@ function Header() {
     <div>
       <section
         id="desktop_navbar"
-        className="hidden md:flex justify-between px-[190px] py-10 text-[22px] text-[white]"
+        className="hidden md:flex justify-between px-[170px] py-5 text-[18px] text-[white] bg-red-"
       >
         <div
           id="logo"
-          className="border-solid border-red-500 rounded-full text-[#2ecc71]"
+          className="border-solid rounded-full text-[#2ecc71] "
         >
-          <FontAwesomeIcon icon={faSlack} className="text-[40px]" />
+          <FontAwesomeIcon icon={faSlack} className="text-[45px]" />
         </div>
-        <ul className="flex gap-16 font-semibold">
+        <ul className="flex gap-14 font-semibold pt-2">
           {menuOptions.map((item, index) => (
             <li
               key={index}
               className={`${
                 index === menuOptions.length - 1
-                  ? "border border-[#2ecc71] px-5 py-1 rounded-3xl text-[#2ecc71] hover:bg-[#2ecc71] hover:text-white hover:border-white hover:border-[2px]"
+                  ? "px-3 rounded-3xl pb-[-3px] text-[#2ecc71] hover:text-white hover:border-white"
                   : "hover:text-[#2ecc71]"
               } transition ease-in-out duration-200`}
             >

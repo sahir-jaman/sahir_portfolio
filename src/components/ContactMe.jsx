@@ -38,7 +38,7 @@ const Contact = () => {
   // }
 
   return (
-    <div id="contact" className="contact md:pt-[70px] lg:pt-[120px] pt-[40px]">
+    <div id="contact" className="contact md:pt-[60px] lg:pt-[80px] pt-[40px]">
       <div className="text-white max-w-[90%] md:max-w-[80%]">
         <h1 className="text-[40px]">Contact Me</h1>
         <p className="text-justify py-2 text-[18px] md:w-[61%]">

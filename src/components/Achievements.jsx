@@ -58,8 +58,8 @@ const heroData = [
 export default function Achievements() {
   return (
     <>
-      <div className="sm:mt-[150px] md:mt-[100px] mr-3 text-white bg-[] md:w-[95%]">
-        <h1 className="text-[white] text-2xl md:text-3xl pb-5">Achievements:</h1>
+      <div className="sm:mt-[150px] md:mt-[30px] mr-3 text-white bg-[] md:w-[95%]">
+        <h1 className="text-[white] text-2xl md:text-2xl pb-5">Achievements:</h1>
         <Swiper
           navigation={true}
           modules={[Navigation, Scrollbar, A11y, Autoplay]}
@@ -83,10 +83,10 @@ export default function Achievements() {
               </div>
               <div className="flex items-center w-full md:w-[45%] mr-5 p-4 pr-6 cursor-pointer">
                 <div className="">
-                  <h2 className="text-2xl lg:text-4xl font-bold my-6 leading-normal hover:text-[#2ecc71]">
+                  <h2 className="text-2xl lg:text-3xl font-bold my-6 leading-normal hover:text-[#2ecc71]">
                     {item.title}
                   </h2>
-                  <p className="text-[23px] text-justify">{item.description}</p>
+                  <p className="text-[20px] text-justify">{item.description}</p>
                 </div>
               </div>
             </SwiperSlide>
