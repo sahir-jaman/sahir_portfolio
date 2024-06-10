@@ -5,7 +5,7 @@ function Experience() {
     <div className="md:mt-[15px] mt-[10px]">
       <div id="MoveUpBD">
         <h1 className="text-[30px] md:text-[42px] text-[#2ecc71] pb-1">Full Stack Developer<span className="text-[10px]">since january, 2024</span></h1>
-        <h3 className='text-[white] text-[22px] font-bold'>Move Up Bangladesh – Gulshan 1, Dhaka</h3>
+        <h3 className='text-[white] text-[22px] font-bold'>Zeeon – Gulshan 1, Dhaka</h3>
         <h2 className="text-[#2ecc71] text-[18px]">Technology: [ Django, React, Tailwind CSS, Django-Rest-Framework, PostgreSQL ]</h2>
         <ul className="list-disc pl-5 pt-2 text-[white]">
           <li className="p-1">Create Full stack websites using django and react.</li>
